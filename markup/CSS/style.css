@@ -1,0 +1,75 @@
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+    text-align: center;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+.header {
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+thead th {
+    color: black;
+    background-color: red;
+}
+.firstrow {
+    color: black;
+    background: rgb(255, 72, 0);
+}
+.firstrow + tr {
+    background: rgb(255, 136, 0);
+}
+#thirdrow > td {
+    background: rgb(255, 174, 0);
+}
+.fourthrow,
+.fifthrow {
+    background: rgb(238, 255, 0);
+    color: black;
+}
+#fifthrow {
+    background: rgb(200, 255, 0);
+    color: black;
+}
+.sixthrow {
+    background: rgb(40, 238, 33);
+}
+.seventhrow {
+    background: rgb(0, 255, 170);
+}
+.eighthrow {
+    background: rgb(0, 255, 255);
+}
+.ninethrow {
+    background: rgb(0, 153, 255);
+}
+.tenthrow {
+    background: rgb(0, 60, 255);
+}
+.eleventhrow {
+    background: rgb(25, 0, 255);
+}
+.twelvthrow {
+    background: rgb(119, 0, 255);
+}
+.thirteenthrow {
+    background: rgb(204, 1, 255);
+}
+.fouteenthrow {
+    background: violet;
+}
+.fifteenthrow {
+    background: rgb(255, 0, 149);
+}

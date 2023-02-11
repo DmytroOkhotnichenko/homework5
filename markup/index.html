@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Типы Селекторов</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Типы селекторов</h1>
+    </header>
+    <main>
+        <table class="table">
+            <thead>
+                <th>#</th>
+                <th>Тип</th>
+                <th>Пример</th>
+                <th>Комментарий</th>
+            </thead>
+            <tr class="firstrow">
+                <td>1</td>
+                <td>Универсальный селектор</td>
+                <td>* {style}</td>
+                <td>Позволяет обращаться ко всем элементам на странице</td>
+            </tr>
+            <tr class="secondrow">
+                <td>2</td>
+                <td>Идентификатор</td>
+                <td>#header {style}</td>
+                <td>Обращение с идентификатору тега и придание ему нужных свойств</td>
+            </tr>
+            <tr id="thirdrow" class="thirdrow">
+                <td>3</td>
+                <td>Селектор класса</td>
+                <td>.header {style}</td>
+                <td>Обращение к классу тега и придание ему нужных свойств</td>
+            </tr>
+            <tr class="fourthrow">
+                <td>4</td>
+                <td>Контекстный селектор</td>
+                <td>li a {style}</td>
+                <td>Позволяет указать на какой конкретно элемент из выбранного блока нужно навесить стили</td>
+            </tr>
+            <tr id="fifthrow" class="fifthrow">
+                <td>5</td>
+                <td>Селектор типа</td>
+                <td>a {style}</td>
+                <td>Позволяет охватить заданным стилем все элемены конкретного типа</td>
+            </tr>
+            <tr class="sixthrow">
+                <td>6</td>
+                <td>Соседний селектор</td>
+                <td>h1 + a {style}</td>
+                <td>Позволяет выбрать только тот элемент, который следует сразу же за указанным элементом</td>
+            </tr>
+            <tr class="seventhrow">
+                <td>7</td>
+                <td>Дочерний элемент</td>
+                <td>header > nav {style}</td>
+                <td>Позволяет обратиться к первому элементу родительского блока</td>
+            </tr>
+            <tr class="eighthrow">
+                <td>8</td>
+                <td>Родственный селектор</td>
+                <td>ul ~ p {style}</td>
+                <td>Этот селектор выберет все элементы следующие за указанным тегом находящиеся на одном уровне</td>
+            </tr>
+            <tr class="ninethrow">
+                <td>9</td>
+                <td>Селектор атрибутов</td>
+                <td>a[title] {style}</td>
+                <td>Выберет все ссылки с указанным атрибутом title</td>
+            </tr>
+            <tr class="tenthrow">
+                <td>10</td>
+                <td>Атрибут со значением</td>
+                <td>[type="text"] {style}</td>
+                <td>Выбирает теги имеющий атрибут type="text"</td>
+            </tr>
+            <tr class="eleventhrow">
+                <td>11</td>
+                <td>Атрибут для поиска по тексту</td>
+                <td>[href*="xml"] {style}</td>
+                <td>Выбирает теги содержащие "xml" в атрибуте href</td>
+            </tr>
+            <tr class="twelvthrow">
+                <td>12</td>
+                <td>Значение атрибута начинается с текста</td>
+                <td>[href^="http"] {style}</td>
+                <td>Выбирает теги содержание атрибута href которых начинается на http</td>
+            </tr>
+            <tr class="thirteenthrow">
+                <td>13</td>
+                <td>Значение атрибута заканчивается текстом</td>
+                <td>[src$=".jpeg"] {style}</td>
+                <td>Выбирает теги содержание атрибута src которых заканчивается на .jpeg</td>
+            </tr>
+            <tr class="fouteenthrow">
+                <td>14</td>
+                <td>Значение атрибута у которого через пробел несколько значений</td>
+                <td>a[alt~="thumb"] {style}</td>
+                <td>Выбирает теги содержание атрибута alt которых содержит thumb и указан через пробел во множестве других</td>
+            </tr>
+            <tr class="fifteenthrow">
+                <td>15</td>
+                <td>Значение атрибута у которого в значении есть разделители -</td>
+                <td>a[hreflang|=en] {style}</td>
+                <td>Выбирает элементы с аттрибутом hreflang,  укоторого в значении есть разделители -, и первая часть до - это en</td>
+        </table>
+        </ul>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
