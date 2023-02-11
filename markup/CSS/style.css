@@ -20,7 +20,7 @@
 h1 {
     color: blue;
 }
-thead th {
+tr th {
     color: black;
     background-color: red;
 }
